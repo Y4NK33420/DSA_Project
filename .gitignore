@@ -1,0 +1,9 @@
+# Build artifacts
+*.o
+
+# Binary files
+bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db 
