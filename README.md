@@ -129,3 +129,4 @@ Run the executable from the root of the project directory, passing the path to a
     -   WAV file parsing with dynamic metadata handling.
     -   SDL audio playback implementation.
     -   Audio buffer management for playback control.
+      
