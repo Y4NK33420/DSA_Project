@@ -2,7 +2,15 @@
 
 This project is a real-time audio visualizer that processes WAV audio files, analyzes their frequency spectrum using the Fast Fourier Transform (FFT), and displays the output using SDL2.
 
-![Visualizer Screenshot](https://via.placeholder.com/800x400.png?text=Visualizer+Screenshot)
+![Visualizer Screenshot](./assets/GUI.png)
+
+## Screenshots
+
+Here are a couple of screenshots showcasing the application in action.
+
+| Main GUI                                    | Active Note Dectection (Terminal)           |
+| ------------------------------------------- | ------------------------------------------- |
+| ![Visualizer GUI](./assets/GUI.png) | ![Terminal Output](./assets/active_notes_terminal.png) |
 
 ## How It Works
 
@@ -90,7 +98,7 @@ The application processes audio in a series of sequential steps to produce a rea
 Run the executable from the root of the project directory, passing the path to a WAV file as an argument. For the application to find the required `.dll` files, you should run it from the root of the project where the `bin/` directory is located.
 
 ```bash
-./build/main assets/test.wav
+./build/main.exe assets/test.wav
 ```
 
 ### Controls
