@@ -16,7 +16,7 @@ Here are a couple of screenshots showcasing the application in action.
 
 The application processes audio in a series of sequential steps to produce a real-time visualization:
 
-1.  **WAV File Loading**: The program begins by loading a user-specified `.wav` file. It reads the file's header into a `WavHeader` struct and validates it to ensure it's a compatible format. The raw audio data is then read, normalized into a `std::vector<double>` of samples ranging from -1.0 to 1.0, and stored in a `WavFile` struct.
+1.  **WAV File Loading**:  The program begins by loading a user-specified `.wav` file. It reads the file's header into a `WavHeader` struct and validates it to ensure it's a compatible format. The raw audio data is then read, normalized into a `std::vector<double>` of samples ranging from -1.0 to 1.0, and stored in a `WavFile` struct.
 
 2.  **Audio Playback**: SDL2's audio API is used for playback. The loaded audio samples are passed to an audio device via a callback function, which streams the music asynchronously. User controls for pausing and resuming are handled by managing the audio stream's state.
 
